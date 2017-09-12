@@ -1,0 +1,16 @@
+name: ghostinspector
+version: 0.0.1
+description: Launch Ghost Inspector Test Suite
+keywords:
+  - ghostinspector
+  - tests
+properties:
+  suite:
+    type: string
+    required: true
+  apikey:
+    type: string
+    required: true
+  starturl:
+    type: string
+    required: false
